@@ -1,0 +1,15 @@
+name: ShareLocation
+version: '${project.version}'
+main: net.nutchi.sharelocation.ShareLocation
+api-version: '1.19'
+commands:
+  sharelocation:
+    aliases: [ sl ]
+    permission: sharelocation.command
+permissions:
+  sharelocation.command:
+    default: op
+  sharelocation.add:
+    default: op
+  sharelocation.edit:
+    default: op
